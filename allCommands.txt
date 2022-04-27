@@ -1,0 +1,9 @@
+Action                                                                             Command                             
+To create and use DB                                                               use db assignment
+To create a users collection                                                       db.createCollection("users")
+To show all the collections                                                        db.showCollections
+To insert one document in the users collection                                     db.users.insert({All the details in json format})
+To insert many documents in the users collection                                   db.users.insertMany([{},{},{}])
+To show all the documents of the users collection                                  db.users.find({})
+To update the documents in the users collection                                    db.users.update({Identity of the document you want to update},{$set: {The portion of the document you want to update}})
+To delete the document from the users collection                                   db.users.remove({Identity of the user you want to delete})
